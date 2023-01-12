@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+/* use all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "roboto", sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* use all */
+
+/* main-css start */
+
+/* banner css start */
+.small-bold-text {
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.top-banner {
+  background-color: #e74694;
+  background-image: url(assets/asset\ 32.png);
+  background-size: 400px;
+  background-repeat: repeat;
+}
+/* banner css end */
+
+/* navbar css start */
+.main-nav {
+  margin-top: 5px;
+}
+.company-logo img {
+  width: 200px;
+  margin-right: 10rem;
+}
+
+.nav-links {
+  flex-basis: 830px;
+}
+
+.nav-links ul {
+  justify-items: end;
+  gap: 35px;
+}
+
+.hover-links {
+  color: white;
+}
+
+.hover-links:hover {
+  color: aqua;
+  transition: 0.2s;
+}
+
+.primary-button {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: white !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 0.2s ease-in;
+}
+
+.primary-button:hover {
+  background-color: #e74694;
+}
+
+.secondary-button {
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+  border-color: var(--accent-color);
+  color: white !important;
+  background-color: #e74694;
+}
+
+.backg {
+  background-image: linear-gradient(
+    to left,
+    rgba(254, 189, 200, 0.785),
+    #e74694
+  );
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+/* navbar css end */
+
+/* header start */
+
+header {
+  padding: 50px var(--padding-inline-section);
+}
+
+.header-section {
+  justify-content: center;
+  gap: 50px;
+}
+
+.header-left {
+  max-width: 30vw;
+}
+
+.header-left h1 {
+  margin-top: 7rem;
+}
+
+.header-right img {
+  width: 500px;
+}
+
+.small-bold {
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.header-icon {
+  border: 0.5px solid;
+  margin-bottom: 40px;
+}
+
+/* header end */
+
+/* company section start */
+
+.logos {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 46px;
+}
+/* company section end */
+/* features-section start*/
+
+.features-section {
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(assets/asset\ 34.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  border: 0.5px solid;
+  border-radius: 0px;
+  width: 10rem;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+.features-card {
+  flex-direction: column;
+  gap: 10px;
+  max-width: 30%;
+}
+.features-area {
+  flex-wrap: wrap;
+}
+
+/* features-section end*/
+
+/* big-feature-section start */
+
+.big-feature-section {
+  padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container {
+  gap: 30px;
+}
+.feature-img img {
+  width: 100%;
+}
+
+.feature-text {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+}
+/* big-feature-section start */
+
+/* footer start */
+
+#footer {
+  background-color: #ebf2fa;
+}
+
+.link-column {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hover-link {
+  color: #183b56;
+  padding: 5px;
+}
+
+.linear {
+  color: white;
+  padding: 15px 25px;
+  background-image: linear-gradient(to left, pink, blue);
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 10%;
+}
+
+/* footer end */
+/* main-css end */
